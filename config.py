@@ -50,7 +50,7 @@ class Config:
     BOT_USERNAME=None
 
     #Stream Chat and Log Group
-    CHAT = int(os.environ.get("CHAT", ""))
+    CHAT = int(os.environ.get("CHAT", "-1001556197879"))
     LOG_GROUP=os.environ.get("LOG_GROUP", "")
     if LOG_GROUP:
         LOG_GROUP=int(LOG_GROUP)
@@ -138,7 +138,7 @@ These are commands to control player.
     Command: <b>/logs</b>
 
 <b>How Can I Stream In My Group</b>
-  <i>The source code of this bot is public and can be found at <a href=https://github.com/subinps/VCPlayerBot>VCPlayerBot.</a>\nYou can deploy your own bot and use in your group.</i>
+  <i>The source code of this bot is public and can be found at <a href=https://github.com/anas0089/VCPlayerBot>VCPlayerBot.</a>\nYou can deploy your own bot and use in your group.</i>
 
 """
 
